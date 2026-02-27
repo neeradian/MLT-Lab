@@ -22,8 +22,8 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
+#### If activation fails, run:
 ```bash
-# If activation fails, run:
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
