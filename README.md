@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ### 4. Clone the repository
 ```bash
-git clone [text](https://github.com/neeradian/MLT-Lab.git) 
+git clone https://github.com/neeradian/MLT-Lab.git 
 ```
 
 ### 5. Project Structure
