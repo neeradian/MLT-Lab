@@ -4,15 +4,21 @@
 
 ### 1. Create a Virtual Environment
 
+
+
 ```bash
 # Using venv
 python -m venv venv
+```
+### 2. Activate virtual environment
 
-# Activate virtual environment
-# On Windows:
+####  On Windows:
+```bash
 venv\Scripts\activate
+```
 
-# On macOS/Linux:
+##### On macOS/Linux:
+```bash
 source venv/bin/activate
 ```
 
@@ -21,14 +27,14 @@ source venv/bin/activate
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-### 2. Install Dependencies
+### 3. Install Dependencies
 
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### 3. Project Structure
+### 4. Project Structure
 
 ```
 .
@@ -38,7 +44,7 @@ pip install -r requirements.txt
 └── README.md
 ```
 
-### 4. Deactivate Virtual Environment
+### 5. Deactivate Virtual Environment
 
 ```bash
 deactivate
@@ -51,5 +57,8 @@ deactivate
 
 ## Notes
 
-- Keep `requirements.txt` updated: `pip freeze > requirements.txt`
-- Never commit the `venv/` directory to version control
+- Keep `requirements.txt` updated 
+```bash 
+pip freeze > requirements.txt
+```
+- Never commit the `.venv/` directory to version control
