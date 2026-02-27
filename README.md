@@ -34,7 +34,12 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### 4. Project Structure
+### 4. Clone the repository
+```bash
+git clone [text](https://github.com/neeradian/MLT-Lab.git) 
+```
+
+### 5. Project Structure
 
 ```
 .
@@ -44,7 +49,7 @@ pip install -r requirements.txt
 └── README.md
 ```
 
-### 5. Deactivate Virtual Environment
+### 6. Deactivate Virtual Environment
 
 ```bash
 deactivate
